@@ -9,7 +9,7 @@ date:   2017-12-18
 </figure>
 
 
-<p class="intro"><span class="dropcap"> O</span>lá aqui esta um simples "SNIFFER" em pytho que baixa pacotes da sua rede,depois você pode analizar os pacotes com algum programa e encontrar possíveis senhas contidas nele.
+<p class="intro"><span class="dropcap"> O</span>lá aqui esta um simples "SNIFFER", Sniffers são programas que podem capturar / detectar / detectar pacotes de tráfego de rede por pacote e analisá-los por vários motivos. Comumente usado no campo da segurança da rede. O Wireshark é um analisador de pacotes / analisador de pacotes muito comum
 
 
 
@@ -146,6 +146,20 @@ while True:
             print 'Protocol other than TCP/UDP/ICMP'
              
         print
-
-
 {% endhighlight %}
+
+1. The above sniffer picks up only TCP packets, because of the declaration :
+s = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_TCP)
+
+For UDP and ICMP the declaration has to be :
+s = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_UDP)
+s = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_ICMP)
+
+You might be tempted to think of doing :
+s = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_IP)
+
+but this will not work , since IPPROTO_IP is a dummy protocol not a real one.
+
+2. This sniffer picks up only incoming packets.
+
+3. This sniffer delivers only IP frames , which means ethernet headers are not available.
