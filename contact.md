@@ -6,8 +6,7 @@ title: Contact Dhiego Silva
 <div id="contact">
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
-    <p class="intro">send them your doubts to be-helping you </p>
-    <p>The form is provided by <a href="http://formspree.io/"></p>
+    <p class="intro"> send them your doubts to be-helping you </p>
   <form action="http://formspree.io/francisco.dhiego17@mail.com" method="POST">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" class="full-width"><br>
