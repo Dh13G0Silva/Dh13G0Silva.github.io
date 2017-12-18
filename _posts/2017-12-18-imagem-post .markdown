@@ -4,8 +4,8 @@ title:  "Sniffer em python"
 date:   2017-12-18
 ---
 <figure>
-	<img src="{{ '/assets/img/ 6785.jpg' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Fig1. - This is an example figcaption</figcaption>
+	<img src="{{ '/assets/img/6785.jpg' | prepend: site.baseurl }}" alt=""> 
+	<figcaption> sniffer </figcaption>
 </figure>
 
 
