@@ -4,7 +4,7 @@ description: all double programming
 url: https://github.com/Dh13G0Silva
 baseurl: ""
 paginate_path: "/page:num/"
-permalink: /:year/:month/:tile.html
+permalink: /:year/:month/:title.html
 
 markdown: kramdown
 highlighter: rouge
