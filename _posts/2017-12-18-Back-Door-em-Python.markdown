@@ -11,7 +11,7 @@ date:   2017-12-18
 
 <dt>1.<dt/>vamos importa as bibliotecas necessarias para o funcionamento do BackDoor.</dt> 
 
-{% highlight ruby %}
+{% highlight python %}
 #!/usr/bin/python
 import socket,subprocess, os
 # ou 
@@ -22,6 +22,9 @@ import os
 
 <dt>2. Vamos definir qual tipo de socket queremos, para este caso vamos usar socket TCP</dt>
 
-{% highlight ruby %}
+{% highlight python %}
+# TCP Socket 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+{% endhighlight %}
 
