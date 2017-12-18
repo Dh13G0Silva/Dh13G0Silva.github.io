@@ -23,7 +23,7 @@ import os
 <dt>2. Antes de começar vamos definir 2 variáveis para a "Porta" é "IP" onde o backdoor ira se conectar. </dt>
 
 {% highlight python %}
-# Seu Ip ou Ip externo 
+# Seu Ip ou Ip externo. 
 HOST = '192.168.1.40'
 # Sua porta  
 PORT = 90
