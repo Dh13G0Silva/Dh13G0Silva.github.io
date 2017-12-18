@@ -3,8 +3,8 @@ description: all double programming
 
 url: https://github.com/Dh13G0Silva
 baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+paginate_path: "/page:num/"
+permalink: /:year/:month/:tile.html
 
 markdown: kramdown
 highlighter: rouge
