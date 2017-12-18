@@ -6,8 +6,8 @@ title: Contact Long Haul
 <div id="contact">
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
-    <p class="intro">send them your doubts to be-helping you <code>contact.html</code> file.</p>
-    <p>The form is provided by <a href="http://formspree.io/">Formspree.</a> Follow the directions on their site to set up the form for use.</p>
+    <p class="intro">send them your doubts to be-helping you </p>
+    <p>The form is provided by <a href="http://formspree.io/"></p>
   <form action="http://formspree.io/francisco.dhiego17@mail.com" method="POST">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" class="full-width"><br>
