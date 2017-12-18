@@ -20,7 +20,7 @@ import subprocess
 import os
 {% endhighlight %}
 
-<dt>2. Antes de começar vamos definir 2 variáveis para a "Porta" é "IP" onde o backdor ira se conectar. </dt>
+<dt>2. Antes de começar vamos definir 2 variáveis para a "Porta" é "IP" onde o backdoor ira se conectar. </dt>
 
 {% highlight python %}
 # Seu Ip ou Ip externo 
