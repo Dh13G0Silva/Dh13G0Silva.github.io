@@ -14,7 +14,7 @@ date:   2017-12-18
 Este "Sniffers" aqui exibidos não usam bibliotecas extras como libpcap. Eles apenas usam tomadas brutas.
 
 
-{% highlight html %}
+{% highlight python %}
 
 #!/usr/bin/python 
 import socket, sys
