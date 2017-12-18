@@ -6,7 +6,7 @@ title: Contact Dhiego Silva
 <div id="contact">
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
-    <p class="intro"> send them your doubts to be-helping you </p>
+    <p class="intro"> send them your doubts to be-helping you .</p>
   <form action="http://formspree.io/francisco.dhiego17@mail.com" method="POST">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" class="full-width"><br>
@@ -16,4 +16,5 @@ title: Contact Dhiego Silva
     <textarea name="message" id="message" cols="30" rows="10" class="full-width"></textarea><br>
     <input type="submit" value="Send" class="button">
   </form>
+
 </div>
