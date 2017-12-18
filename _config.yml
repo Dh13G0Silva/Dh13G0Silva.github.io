@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Dhiego Silva
+description: all double programming
 
-url: http://brianmaierjr.github.com/long-haul
+url: https://github.com/Dh13G0Silva
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -20,9 +20,9 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: https://github.com/Dh13G0Silva
+   twitter: 
+   facebook: https://www.facebook.com/Blacksystembr
+   email: francisco.dhiego17@gmail.com
 
 google_analytics: "UA-58263416-1"
