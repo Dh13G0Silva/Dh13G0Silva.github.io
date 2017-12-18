@@ -7,7 +7,7 @@ date:   2017-12-18
 	<img src="{{ '/assets/img/ imagem aqui' | prepend: site.baseurl }}" alt=""> 
 	
 </figure>
-<p class="intro"><span class="dropcap"> S</span>imples "BkacDoor" em python para conexão revessa, você pode usar o NetCat ou criar um servido em python para estar ouvindo o"BkacDoor".
+<p class="intro"><span class="dropcap"> S</span>imples "BackDoor" em python para conexão revessa, você pode usar o NetCat ou criar um servido em python para estar ouvindo o"BkacDoor".
 
 <dt>1. vamos importa as bibliotecas necessarias para o funcionamento do BackDoor.</dt> 
 
