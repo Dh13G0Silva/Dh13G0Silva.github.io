@@ -2,7 +2,7 @@
 layout: default
 title: About Dhiego Silva
 ---
-<div>
+
 <div class="post">
 	<h1 class="pageTitle">About Dhiego Silva</h1>
 	<p class= "text-center"><img src="{{ '/assets/img/perfil.png' | prepend: site.baseurl }}" alt="" >
@@ -16,5 +16,3 @@ title: About Dhiego Silva
 		 <li><a href="https://www.facebook.com/hackersecbr">  Hacker Security  </a></li>
       		
   	</ul>
-</div>
-</div>
