@@ -9,8 +9,9 @@ date:   2017-12-18
 </figure>
 
 
-<p class="intro"><span class="dropcap"> O</span>lá aqui esta um simples "SNIFFER", Sniffers são programas que podem capturar / detectar / detectar pacotes de tráfego de rede por pacote e analisá-los por vários motivos. Comumente usado no campo da segurança da rede. O Wireshark é um analisador de pacotes / analisador de pacotes muito comum
+<p class="intro"><span class="dropcap"> O</span>lá aqui esta um simples "SNIFFER", Sniffers são programas que podem capturar / detectar / detectar pacotes de tráfego de rede por pacote e analisá-los por vários motivos. Comumente usado no campo da segurança da rede. O Wireshark é um analisador de pacotes  muito comum.
 
+Sniffers aqui exibidos não usam bibliotecas extras como libpcap. Eles apenas usam tomadas brutas.
 
 
 {% highlight html %}
