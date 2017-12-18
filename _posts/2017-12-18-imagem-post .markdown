@@ -148,8 +148,7 @@ while True:
              
         print
 {% endhighlight %}
-<dl>
-<dl>1. O sniffer acima escolhe apenas pacotes TCP, devido à declaração: s = socket.socket (socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_TCP) Para UDP e ICMP, a declaração deve ser: s = socket.socket ( socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_UDP) s = socket.socket (socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_ICMP) Você pode estar tentado a pensar em fazer: s = socket.socket (socket.AF_INET, socket .SOCK_RAW, socket.IPPROTO_IP), mas isso não funcionará, uma vez que IPPROTO_IP é um protocolo fofo não real. </dl>
-<dl>2. Este sniffer pega apenas pacotes recebidos. </dl>
-<dl>3. Este sniffer oferece somente quadros IP, o que significa que os cabeçalhos ethernet não estão disponíveis.</dl>
-</dl>
+
+1. O sniffer acima escolhe apenas pacotes TCP, devido à declaração: s = socket.socket (socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_TCP) Para UDP e ICMP, a declaração deve ser: s = socket.socket ( socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_UDP) s = socket.socket (socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_ICMP) Você pode estar tentado a pensar em fazer: s = socket.socket (socket.AF_INET, socket .SOCK_RAW, socket.IPPROTO_IP), mas isso não funcionará, uma vez que IPPROTO_IP é um protocolo fofo não real. 
+2. Este sniffer pega apenas pacotes recebidos. 
+3. Este sniffer oferece somente quadros IP, o que significa que os cabeçalhos ethernet não estão disponíveis.
