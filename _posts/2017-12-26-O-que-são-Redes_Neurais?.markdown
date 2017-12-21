@@ -40,7 +40,7 @@ Acontece que a verdadeira inteligência não é a capacidade de seguir regras, m
 A IA simbólica simula o comportamento inteligente. Ela é baseada em uma programação que indica quais respostas devem ser dadas diante de determinados comandos. Essa IA é a utilizada em programas “inteligentes”, como corretores ortográficos ou simuladores dos mais variados. A questão é que esses programas dificilmente aprendem coisas novas, somente se você incluir novas programações. Essa é a IA mais comum.
 A IA conexionista simula a estrutura do cérebro, pois acredita-se que a inteligência está na forma de processar informação e não na informação processada. Como o sistema do cérebro é inteligente, usa-se tal modelo para desenvolver IA. Assim, os sistemas de IA baseados em redes neurais conseguem aprender com seus erros e executar diferentes processos, independente de instruções.
 Fonte:TehcMundo
-<p class="intro">Fonte:</p><a href="https://www.tecmundo.com.br/programacao/2754-o-que-sao-redes-neurais-.htm">Fonte:TehcMundo</a>
+Fonte:<a href="https://www.tecmundo.com.br/programacao/2754-o-que-sao-redes-neurais-.htm">Fonte:TehcMundo</a>
 
 
 
