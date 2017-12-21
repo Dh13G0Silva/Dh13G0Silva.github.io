@@ -1,9 +1,7 @@
 from datetime import datetime
 import os
-
-
 # Nome da Postagem
-Name = raw_input("Name of Post:")  
+Name = input("Name of Post:")  
 # para ver o que quer basta colocar now.year = mes now.month = mes now.day=dia 
 now = datetime.now()
 Title= raw_input ("Title of Post:")
