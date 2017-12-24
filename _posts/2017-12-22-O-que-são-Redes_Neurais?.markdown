@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "O que são Redes Neurais?"
-date:   2017-12-26
+date:   2017-12-22
 ---
 <dt>Para começarmos temos que entender primeiramente o funcionamentos de nosso neurôions.</dt>
 
